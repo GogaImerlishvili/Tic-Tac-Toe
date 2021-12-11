@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 40px;
+}
+
+.playText {
+  text-transform: uppercase;
+  font-size: 54px;
+}
+.restartBtn {
+  transform: translateY(-2px);
+  cursor: pointer;
+  width: 55px;
+  height: 25px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+}
+
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  margin-top: 40px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  font-size: 150px;
+  justify-content: center;
+}
